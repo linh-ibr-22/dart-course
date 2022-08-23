@@ -11,5 +11,5 @@ ok
  */
 
 void main(List<String> args) {
-  
+  print("ddd");
 }
