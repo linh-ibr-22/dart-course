@@ -11,6 +11,7 @@ ok
  */
 
 void main(List<String> args) {
-  print("ddd");
-  print("dsd");
+  print(true);
+  print(4);
+  print("ok");
 }
