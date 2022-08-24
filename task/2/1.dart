@@ -11,3 +11,14 @@ ali
 12
 
  */
+import 'dart:io';
+
+void main(List<String> args) {
+  print("enter your name:");
+  var username = stdin.readLineSync()!;
+  print("enter your age:");
+  var age = num.parse(stdin.readLineSync()!);
+  print("your name and age is :");
+  print(username);
+  print(age);
+}
