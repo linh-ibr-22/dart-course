@@ -24,7 +24,22 @@ enter operator:
 result is : 5
 
  */
+import 'dart:io';
 
 void main(List<String> args) {
-  
+  print("enter first number:");
+  var numder1 = num.parse(stdin.readLineSync()!);
+  print("enter second number:");
+  var numder2 = num.parse(stdin.readLineSync()!);
+  print("enter operator:");
+  var x = stdin.readLineSync()!;
+  if (x == "+") {
+    print("result is :" '${numder1 + numder2}');
+  } else if (x == "-") {
+    print("result is :" '${numder1 - numder2}');
+  } else if (x == "*") {
+    print("result is :" '${numder1 * numder2}');
+  } else {
+    print("result is :" '${numder1 / numder2}');
+  }
 }

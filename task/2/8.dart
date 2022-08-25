@@ -10,3 +10,13 @@ the even number from 0 to 5 is:
 2
 4
 */
+import 'dart:io';
+
+void main(List<String> args) {
+  print("enter a number:");
+  var n1 = int.parse(stdin.readLineSync()!);
+  print("the even number from 0 to'${n1}'  is:");
+  for (int x = 0; x <= n1; x++) {
+    print(x);
+  }
+}
